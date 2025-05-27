@@ -2,14 +2,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Ler o arquivo CSV
 df = pd.read_csv(
     r'C:\Users\trend\Desktop\programação\ecommerce_preparados.csv')
 
-# Garantir que a coluna 'Preço_MinMax' seja numérica
 df['Preço_MinMax'] = pd.to_numeric(df['Preço_MinMax'], errors='coerce')
 
-# Estilo visual dos gráficos
 sns.set(style="whitegrid")
 
 # 1. Histograma - Notas
