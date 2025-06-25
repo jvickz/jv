@@ -1,3 +1,5 @@
+##PROJETO SIMULADO UM CASSANIQUEL, MOSTRANDO COMO FUNCIONA O SISTEMA DE "SORTE" DAS MAQUINAS"
+
 from abc import ABC, abstractclassmethod
 import itertools
 import random
