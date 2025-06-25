@@ -1,3 +1,5 @@
+#EXERCICIO DO CURSO EBAC##
+
 import requests
 from bs4 import BeautifulSoup
 
